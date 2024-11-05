@@ -3,8 +3,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-//        ArrayList<Double> list = new ArrayList<>(Arrays.asList(123.0, 0.0, -123.2, -12.321, 312.1109, 22.1, 111.2, -2.1, 666.666, -1.0));
-        ArrayList<Double> list = new ArrayList<>(Arrays.asList(-123.01, 0.000012, 23.2, 12.321, 32.09, 22.1, 111.2, 2.1, 6.6, -0.123));
+        ArrayList<Double> list = new ArrayList<>(Arrays.asList(123.0, 0.0, -123.2, -12.321, 312.1109, 22.1, 111.2, -2.1, 666.666, -1.0));
         System.out.println("      Введенный список: " + list);
 
         int n = list.size();
